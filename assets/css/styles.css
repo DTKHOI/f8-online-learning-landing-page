@@ -23,6 +23,7 @@ a {
 /* Common */
 :root {
     --primary-color: #1ebfc1;
+    --heading--color: #0d1111;
 }
 
 .main-content {
@@ -105,4 +106,240 @@ a {
     font-size: 1.6rem;
     font-weight: 600;
     padding: 12px 18px;
+}
+
+/* ----------------- Hero ---------------- */
+.hero {
+    margin-top: 62px;
+    display: flex;
+    align-items: center;
+}
+
+.hero__content {
+    max-width: 51%;
+}
+
+.hero__label {
+    color: #767e7e;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.hero__heading {
+    color: var(--heading--color);
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16;
+    margin-top: 18px;
+}
+
+.hero__desc {
+    margin-top: 46px;
+    width: 374px;
+    color: #9da6a5;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.78;
+}
+
+.hero__actions {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero__watch {
+    background: none;
+    border: none;
+}
+
+.hero__media {
+    background: #e0f7f6;
+    position: relative;
+    height: 631px;
+    max-width: 49%;
+}
+
+.hero__hero-image {
+    object-fit: cover;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.hero__icon-container {
+    width: 62px;
+    height: 62px;
+    border-radius: 62px;
+    box-shadow: 0 22px 50px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__book-icon {
+    width: 36px;
+    height: 40px;
+    background: #ff8282;
+    border-radius: 5px 3px 3px 5px;
+    position: relative;
+}
+
+.hero__book-icon::before {
+    border-radius: 999px;
+    display: inline-block;
+    content: "";
+    width: 28px;
+    height: 4px;
+    background: #fff;
+    position: relative;
+    top: 18px;
+    left: 4px;
+}
+
+.hero__card-title {
+    color: #0d1111;
+    font-size: 10px;
+    font-weight: 500;
+    width: 55px;
+    line-height: normal;
+}
+
+.hero__box-lable {
+    position: absolute;
+    display: flex;
+    background: #fefefd;
+    box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.05);
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__course-label {
+    border-radius: 18px;
+    top: 149px;
+    right: 459px;
+    width: 157px;
+    height: 75px;
+    gap: 16px;
+}
+
+.hero__schedule-label {
+    border-radius: 24px;
+    width: 124px;
+    height: 132px;
+    gap: 16px;
+    flex-direction: column;
+    bottom: 46px;
+    right: 517px;
+}
+
+.hero__prog-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero__prog-bar {
+    width: 74px;
+    height: 6px;
+    border-radius: 3px;
+    background: #edf1f5;
+}
+
+.hero__prog-bar--half::before {
+    content: "";
+    display: block;
+    border-radius: 3px;
+    height: 6px;
+    width: 39px;
+    background: #fb9899;
+}
+
+.hero__prog-bar--quarter::before {
+    content: "";
+    display: block;
+    border-radius: 3px;
+    height: 6px;
+    width: 51px;
+    background: #fb9899;
+}
+
+.hero__prog-bar--third::before {
+    content: "";
+    display: block;
+    border-radius: 3px;
+    height: 6px;
+    width: 33px;
+    background: #fb9899;
+}
+
+.hero__separate-line {
+    width: 26px;
+    height: 6px;
+    border-radius: 3px;
+    background: #edf1f5;
+}
+
+.hero__student-label {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 207px;
+    height: 90px;
+    border-radius: 24px;
+    gap: 8px;
+    padding: 17px 35px;
+    bottom: 41px;
+    right: 45px;
+}
+
+.hero__card-title--last {
+    width: 100px;
+}
+
+.hero__row-avt {
+    display: flex;
+}
+
+.hero__bg-avt {
+    border-radius: 35px;
+    width: 35px;
+    height: 35px;
+    background: #1ebfc1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -9.5px;
+}
+
+.hero__student-avt {
+    display: block;
+    object-fit: cover;
+    width: 33px;
+    height: 33px;
+    border-radius: 33px;
+}
+
+.hero__text-avt {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.hero__bg-avt--color1 {
+    margin-left: auto;
+}
+
+.hero__bg-avt--color2 {
+    background-color: #ffc147;
+}
+
+.hero__bg-avt--color3 {
+    background-color: #ff947a;
+}
+
+.hero__bg-avt--color4 {
+    background-color: #bf83ff;
 }
