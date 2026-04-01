@@ -21,6 +21,88 @@ a {
 }
 
 /* Common */
+:root {
+    --primary-color: #1ebfc1;
+}
+
 .main-content {
-    padding: 0px 135px;
+    margin: auto auto;
+    width: 1170px;
+    max-width: calc(100% - 48px);
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 14px;
+    background: #1ebfc1;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
+    min-width: 186px;
+    padding: 24px 0px;
+    text-align: center;
+}
+
+/* ------------------ Header ---------------- */
+.header {
+    padding-top: 52px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    margin-right: 235px; /* cố định khoảng cách từ logo đến nav */
+    margin-left: auto; /* đẩy header__actions về sát phải */
+}
+
+.nav__list {
+    display: flex;
+    gap: 39px;
+}
+
+.nav__link {
+    color: #2f3a3b;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.nav__link--active {
+    font-weight: 600;
+}
+
+.nav__link:hover {
+    text-shadow: 1px 0 0 currentColor;
+}
+
+/* .header__menu {
+    position: sticky;
+    top: -28px;
+    z-index: 2;
+} */
+
+.header__actions {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header__sign-in {
+    color: #494949;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.btn--outline {
+    display: inline-block;
+    max-width: 108px;
+    border-radius: 6px;
+    border: 1.5px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 12px 18px;
 }
