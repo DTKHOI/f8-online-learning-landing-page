@@ -199,7 +199,7 @@ a {
 }
 
 .hero__card-title {
-    color: #0d1111;
+    color: var(--heading-color);
     font-size: 10px;
     font-weight: 500;
     width: 55px;
@@ -342,4 +342,87 @@ a {
 
 .hero__bg-avt--color4 {
     background-color: #bf83ff;
+}
+
+/* ------------------- Feature ---------------- */
+/* sử dụng max-width tạm cho responsive */
+
+.feature {
+    margin-top: 130px;
+    max-width: 1024px;
+}
+
+.feature__label {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 8px;
+}
+
+.feature__title {
+    margin-top: 18px;
+    color: var(--heading-color);
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.33;
+    max-width: 579px;
+}
+
+.feature__desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 18px;
+    max-width: 598px;
+}
+
+.feature__list {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature__bg-icon {
+    max-width: 102px;
+    height: 106px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature__bg-icon--color1 {
+    background: #ffc147;
+}
+
+.feature__bg-icon--color2 {
+    background: #ff947a;
+}
+
+.feature__bg-icon--color3 {
+    background: #bf83ff;
+}
+
+.feature__item-title {
+    margin-top: 26px;
+    color: var(--heading-color);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.feature__item-desc {
+    max-width: 230px;
+    margin-top: 16px;
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.69;
 }
