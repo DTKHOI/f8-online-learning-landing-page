@@ -568,3 +568,33 @@ a {
     border-radius: 6px;
     background: var(--primary-color);
 }
+
+/* --------------- Stats ---------------- */
+.stats {
+    margin-top: 265px;
+}
+
+.stats__content-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.stats__quantity {
+    color: var(--heading--color);
+    text-align: center;
+    font-size: 6.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.stats__desc {
+    color: #767e7e;
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 11px;
+}
