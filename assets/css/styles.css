@@ -48,7 +48,7 @@ a {
 /* ------------------ Header ---------------- */
 .header {
     position: sticky;
-    top: -45px;
+    top: -42px;
     z-index: 2;
     background: #fff;
 }
