@@ -47,12 +47,16 @@ a {
 
 /* ------------------ Header ---------------- */
 .header {
-    padding-top: 52px;
+    position: sticky;
+    top: -45px;
+    z-index: 2;
+    background: #fff;
 }
 
 .header__menu {
     display: flex;
     align-items: center;
+    padding: 52px 0 10px;
 }
 
 .nav {
@@ -79,12 +83,6 @@ a {
     text-shadow: 1px 0 0 currentColor;
 }
 
-/* .header__menu {
-    position: sticky;
-    top: -28px;
-    z-index: 2;
-} */
-
 .header__actions {
     display: flex;
     align-items: center;
@@ -108,9 +106,9 @@ a {
     padding: 12px 18px;
 }
 
-/* ----------------- Hero ---------------- */
+/* ---------------- Hero ------------------ */
 .hero {
-    margin-top: 62px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
 }
